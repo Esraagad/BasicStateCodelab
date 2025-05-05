@@ -45,14 +45,14 @@ fun WellnessTaskItem(
     }
 }
 
-@Composable
-fun WellnessTaskItem(taskName: String, modifier: Modifier = Modifier, onCloseTask: () -> Unit) {
-    var checkedState by rememberSaveable { mutableStateOf(false) }
-
-    WellnessTaskItem(
-        modifier = modifier,
-        taskName = taskName,
-        onClose = onCloseTask,
-        checked = checkedState,
-        onCheckedChange = { newValue -> checkedState = newValue })
-}
+//@Composable
+//fun WellnessTaskItem(taskName: String, modifier: Modifier = Modifier, onCloseTask: () -> Unit) {
+//    var checkedState by rememberSaveable { mutableStateOf(false) }
+//
+//    WellnessTaskItem(
+//        modifier = modifier,
+//        taskName = taskName,
+//        onClose = onCloseTask,
+//        checked = checkedState,
+//        onCheckedChange = { newValue -> checkedState = newValue })
+//}
